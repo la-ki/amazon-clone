@@ -14,13 +14,13 @@ function Home() {
         <div className="home__row">
           <Product
           id="123451"
-            title="DualShock 4 Wireless Controller for PlayStation 4 - Magma Red"
+            title="DualShock 4 Wireless Controller"
             price={12.99}
             image="https://images-na.ssl-images-amazon.com/images/I/81L9%2B4dTIgL._SL1500_.jpg"
             rating={5} />
           <Product
             id="14571"
-            title="Blendtec Total Classic Original Blender - WildSide+ Jar (90 oz) - Professional-Grade Power - 6 Pre-programmed Cycles - 10-speeds - Black (Renewed)"
+            title="Blendtec Total Classic Original Blender"
             price={154.99}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/31znGMx%2B9FL._AC_.jpg"
@@ -36,14 +36,14 @@ function Home() {
           />
           <Product
             id="454545"
-            title="Victrola Vintage 3-Speed Bluetooth Portable Suitcase Record Player with Built-in Speakers"
+            title="Victrola Vintage 3"
             price={44.98}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/716pgZxRYhL._AC_SL1395_.jpg"
           />
           <Product 
             id="4154545"
-            title="AmazonBasics Small Digital Alarm Clock with Nightlight and Battery Backup, LED Display"
+            title="AmazonBasics Small Digital Alarm Clock"
             price={9.99}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/61j17FjPhtL._AC_SL1500_.jpg"
@@ -52,7 +52,7 @@ function Home() {
         <div className="home__row">
           <Product
             id="445445"
-            title="LG 50UN7300PUF Alexa Built-In 50 4K Ultra HD Smart LED TV (2020)"
+            title="LG 50UN7300PUF Alexa Built-In"
             price={1289.99}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/81RMDc4CWYL._AC_SL1500_.jpg"
