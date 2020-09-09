@@ -3,4 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+import {StateProvider} from './config/StateProvider';
+import reducer, {initialState} from './config/reducer';
+
+ReactDOM.render(
+    <StateProvider initialState={initialState} reducer={reducer}>
+        <App />
+    </StateProvider>,
+    document.getElementById("root"));
